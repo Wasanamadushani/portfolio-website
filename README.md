@@ -12,5 +12,5 @@ npm run dev
 
 Tailwind setup is included. Replace placeholder images, links, and the CV file as needed.
 =======
-# portfolio-website
->>>>>>> f304036dcacb5b9dc6ead4bae5c6512c0df72769
+
+link - https://portfolio-website-two-pearl-82.vercel.app/
