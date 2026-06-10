@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Wasana Madushani — Portfolio
+
+# Wasana Wickramaarachchi — Portfolio
 
 This is a Vite + React + Tailwind CSS personal portfolio template for Wasana Madushani.
 
