@@ -4,7 +4,7 @@ import mongodb from '../assets/certificates/mongodb-data-modeling.png'
 import frontend from '../assets/certificates/frontend-web-development.png'
 import pythonBeginners from '../assets/certificates/python-for-beginners.png'
 import pythonProgramming from '../assets/certificates/python-programming.png'
-import webDesign from '../assets/certificates/web-design-for-beginners.png'
+import webDesign from '../assets/certificates/web-design-for-beginner.png'
 
 const certificates = [
   {
