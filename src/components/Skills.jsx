@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaJava, FaReact, FaHtml5, FaCss3Alt, FaGit } from 'react-icons/fa'
+import { FaJava, FaReact, FaHtml5, FaCss3Alt, FaGit, FaPython, FaPhp } from 'react-icons/fa'
 import {
   SiJavascript,
   SiKotlin,
@@ -12,6 +12,7 @@ import {
   SiAndroidstudio,
   SiGithub,
   SiFigma,
+  SiTailwindcss,
 } from 'react-icons/si'
 
 const expertise = [
@@ -21,14 +22,17 @@ const expertise = [
       { name: 'Java', icon: FaJava },
       { name: 'JavaScript', icon: SiJavascript },
       { name: 'Kotlin', icon: SiKotlin },
+      { name: 'Python', icon: FaPython },
+      { name: 'PHP', icon: FaPhp },
     ],
   },
   {
     category: 'Frontend Development',
     skills: [
-      { name: 'React', icon: FaReact },
       { name: 'HTML', icon: FaHtml5 },
       { name: 'CSS', icon: FaCss3Alt },
+      { name: 'React.js', icon: FaReact },
+      { name: 'Tailwind CSS', icon: SiTailwindcss },
     ],
   },
   {
@@ -37,10 +41,11 @@ const expertise = [
       { name: 'Spring Boot', icon: FaJava },
       { name: 'Node.js', icon: SiNodedotjs },
       { name: 'Express.js', icon: SiExpress },
+      { name: 'REST APIs', icon: SiExpress },
     ],
   },
   {
-    category: 'Database',
+    category: 'Databases',
     skills: [
       { name: 'MySQL', icon: SiMysql },
       { name: 'MongoDB', icon: SiMongodb },
@@ -49,7 +54,7 @@ const expertise = [
   {
     category: 'Developer Tools',
     skills: [
-      { name: 'VS Code', icon: SiVisualstudiocode },
+      { name: 'Visual Studio Code', icon: SiVisualstudiocode },
       { name: 'Eclipse', icon: SiEclipseide },
       { name: 'Android Studio', icon: SiAndroidstudio },
       { name: 'Git', icon: FaGit },
@@ -58,7 +63,9 @@ const expertise = [
   },
   {
     category: 'UI/UX Design',
-    skills: [{ name: 'Figma', icon: SiFigma }],
+    skills: [
+      { name: 'Figma', icon: SiFigma },
+    ],
   },
 ]
 
@@ -79,7 +86,10 @@ export default function Skills() {
       <div className="space-y-6">
         {expertise.map((group) => (
           <div key={group.category} className="flex flex-col sm:flex-row sm:items-start gap-4">
-            <div className="w-full sm:w-48 text-sm font-semibold text-blue-200 pt-2">{group.category}</div>
+            <div className="w-full sm:w-48 text-sm font-semibold text-blue-200 pt-2">
+              {group.category}
+            </div>
+
             <div className="flex-1 flex flex-wrap gap-3">
               {group.skills.map((s) => (
                 <Badge key={s.name} Icon={s.icon} label={s.name} />
