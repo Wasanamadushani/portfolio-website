@@ -11,7 +11,7 @@ export default function Hero() {
     <div className="grid md:grid-cols-2 gap-8 items-center">
       <div className="order-2 md:order-1 animate-fade-in" style={{ animationDelay: '80ms' }}>
         <h1 className="text-4xl md:text-5xl font-bold">Hi, I'm Wasana M Wickramaarachchi</h1>
-        <p className="text-accent mt-2 font-medium">Information Technology Student at SLIIT</p>
+        <p className="text-accent mt-2 font-medium">Information Technology Undergraduate Student at SLIIT</p>
         <p className="mt-6 text-gray-300 leading-relaxed">I am an Information Technology student passionate about software development. I enjoy working with both backend logic and frontend design to create efficient and user-friendly applications.</p>
 
         <div className="mt-6 flex gap-4">
