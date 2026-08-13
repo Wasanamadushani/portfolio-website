@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Certificates from './components/Certificates'
 
 export default function App() {
   return (
@@ -20,6 +21,9 @@ export default function App() {
         </section>
         <section id="skills" className="pt-24">
           <Skills />
+        </section>
+        <section id="projects">
+          <Projects />
         </section>
         <section id="projects" className="pt-24">
           <Projects />
