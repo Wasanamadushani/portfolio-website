@@ -36,7 +36,9 @@ export default function App() {
         </section>
 
         {/* Certificates */}
-        <Certificates />
+        <section id="projects" className="pt-24">
+          <Certificates />
+        </section>
 
         {/* Contact */}
         <section id="contact" className="pt-24 pb-12">
