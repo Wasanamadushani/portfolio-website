@@ -24,7 +24,7 @@ const projects = [
       'Express.js',
       'MongoDB',
       'REST API',
-      'GitHub',
+      
     ],
     github:
       'https://github.com/Wasanamadushani/RMS-restaurant-system.git',
@@ -39,7 +39,7 @@ const projects = [
       'MERN',
       'JavaScript',
       'REST API',
-      'GitHub',
+      
     ],
     github:
       'https://github.com/Wasanamadushani/IT-Project.git',
@@ -54,7 +54,7 @@ const projects = [
       'Spring Boot',
       'React.js',
       'MongoDB',
-      'GitHub',
+      
     ],
     github:
       'https://github.com/Wasanamadushani/it3030-paf-2026-smart-campus-group-03.02.git',
@@ -69,7 +69,7 @@ const projects = [
       'React.js',
       'JavaScript',
       'MongoDB',
-      'GitHub',
+      
     ],
     github:
       'https://github.com/Wasanamadushani/SmartUniHub-itpm.git',
